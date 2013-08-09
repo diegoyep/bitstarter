@@ -37,7 +37,7 @@ var checkUrl = function(url, checksfile){
 	var present = $(checks[ii]).length > 0;
 	out[checks[ii]] = present;
 	}
-	}
+	}   
 	var outJson = JSON.stringify(out,null, 4);
 	console.log(outJson);
 
